@@ -9,6 +9,240 @@
   </head>
   <body class="p-20">
     <!-- https://tailwindcss.com/docs/position -->
+      <h1 class="text-5xl font-semibold">position</h1>
+    <br>
+      <h1 class="text-4xl underline py-2 ">static</h1>
+
+      <div class="bg-blue-800  w-full h-40 static ">
+        <div class="bg-blue-400 flex justify-center mx-10">
+          <h1 class="text-2xl font-serif py-1 ">Static</h1>
+        </div>
+        <div class=" absolute right-16 top-80 bg-blue-300 ">
+          <h1 class="text-2xl font-mono px-5 py-1">Absolute</h1>
+        </div>
+      </div>
+
+      <h1 class="text-4xl underline py-2 mt-10">Relative</h1>
+
+
+      <div class="h-40 w-full bg-green-800 relative ">
+        <div>
+          <h1 class="text-2xl bg-green-400 px-3 py-1  flex justify-center mx-10">Relative</h1>
+        </div>
+        <div>
+          <h1 class="text-2xl bg-green-300 px-3 py-1  absolute right-0 bottom-0  ">Absolute</h1>
+        </div>
+      </div>
+
+
+            <h1 class="text-4xl underline py-2 mt-10">Fixed Position</h1>
+
+            <div class="relative bg-red-800 h-40 ">
+              <div class="bg-red-600 text-center fixed top-0 left-0  ">
+                <h1 class="text-4xl py-2">Sticky</h1>
+              </div>
+            </div>
+                 
+            <h1 class="text-4xl underline py-2 mt-10">Fixed Position</h1>
+
+
+            <div class="h-72 overflow-auto bg-gray-700 relative " >
+              <div class="">
+                <div class="sticky top-0 text-white px-3 bg-gray-400 py-2"> A</div> 
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&       ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Alan</h1>
+                </span>
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Alina </h1>
+                </span>
+              </div>
+              <div >
+                <div class="sticky top-0 text-white px-3 bg-gray-400 py-2"> B</div> 
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&       ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">bardy</h1>
+                </span>
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">britney</h1>
+                </span>
+              </div>
+              <div >
+                <div class="sticky top-0 text-white px-3 bg-gray-400 py-2"> C</div> 
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&       ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Chris</h1>
+                </span>
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Cate </h1>
+                </span>
+              </div>
+              <div >
+                <div class="sticky top-0 text-white px-3 bg-gray-400 py-2">D</div> 
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&       ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Daniel</h1>
+                </span>
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Diana</h1>
+                </span>
+              </div>
+              <div >
+                <div class="sticky top-0 text-white px-3 bg-gray-400 py-2">E</div> 
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&       ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Erick</h1>
+                </span>
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Emma</h1>
+                </span>
+              </div>
+              <div >
+                <div class="sticky top-0 text-white px-3 bg-gray-400 py-2">F</div> 
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&       ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Freddie</h1>
+                </span>
+                <span class="flex items-center gap-4 border border-black py-2 pl-5">
+                  <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" class="size-14   rounded-full" alt="">
+                  <h1 class="text-lg text-white font-semibold ">Fiona</h1>
+                </span>
+              </div>
+            </div>
+
+            <h1 class="text-4xl underline py-2 mt-10">Block & Inline</h1>
+
+            <div class="text-center">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="text-blue-600  text-2xl underline">Inline</span> vero deserunt libero illum iste dolore ea vel, impedit nemo quod a! Ad porro et incidunt doloribus neque quos cum.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellat alias ullam saepe <span class="underline text-blue-600  text-2xl inline-block "> Inline Block </span> beatae vel temporibus neque debitis dolore.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, officiis. Iure, repellendus quia ad consequuntur voluptate nulla <span class="underline text-blue-600  text-2xl block ">Block</span> Fugit dignissimos earum eum ut atque doloremque quaerat dolore!</p>
+            </div>
+            
+            <h1 class="text-4xl underline py-2 mt-10">Flow Root</h1>
+
+            <div class="p-4">
+              <div class="flow-root flex">
+                <img src="https://images.pexels.com/photos/27860200/pexels-photo-27860200/free-photo-of-two-old-fishermen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti odit iure ut nisi tenetur commodi! Porro corporis, accusamus officiis soluta quo perspiciatis aliquid recusandae non ad praesentium vel earum quibusdam!</p>
+              </div>
+              <div class="">
+                <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam saepe odio necessitatibus omnis. Reprehenderit suscipit earum excepturi, sunt, a dolores facilis sapiente corrupti quod aspernatur rem ratione! Labore, unde suscipit.</p>
+              </div>
+            </div>
+
+
+            <h1 class="text-4xl underline py-2 mt-10">Flex <span class="text-xl ">items-center</span></h1>
+
+            <div class="bg-black h-40 flex items-center justify-center gap-3">
+              <img src="https://images.pexels.com/photos/3652805/pexels-photo-3652805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="h-20 rounded-full w-20 ">
+              <h1 class="text-2xl font-mono text-white">Cat</h1>
+            </div>
+
+            <h1 class="text-4xl underline py-2 mt-10">Inline Flex</h1>
+
+            <div>
+              <p class="text-md ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis consectetur obcaecati vel. Optio odio minima dolorem ratione fuga 
+                <span class=" inline-flex items-baseline text-blue-400 ">
+                  <img src="https://images.pexels.com/photos/194917/pexels-photo-194917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="h-4 rounded-full " alt="">
+                  <span>Ghost</span>
+                </span>
+                molestiae rem? Expedita unde minima aliquam architecto voluptate perferendis nesciunt cumque doloremque. Maxime eveniet rem suscipit alias facere ex voluptatibus. Fugit cumque nam ratione, repellat illo culpa nemo dolorem inventore, laudantium recusandae, in itaque architecto doloribus quaerat voluptates? Quod libero ipsum dicta cum. Numquam, veniam dolorum? Eum beatae quis iusto nesciunt sequi voluptate iste iure quo! Excepturi sequi maxime, molestiae tempore nesciunt alias cupiditate veritatis repellendus eum eaque, quos, id minus odio.</p>
+            </div>
+            
+
+            <h1 class="text-4xl underline py-2 mt-10">Grid</h1>
+
+            <div class="grid gap-2 grid-cols-3  ">
+              <h1 class="text-xl font-semibold bg-orange-400 text-center py-2">Grid</h1>
+              <h1 class="text-xl font-semibold bg-blue-700 text-center py-2">Grid</h1>
+              <h1 class="text-xl font-semibold bg-red-700 text-center py-2">Grid</h1>
+              <h1 class="text-xl font-semibold bg-slate-400 text-center py-2">Grid</h1>
+              <h1 class="text-xl font-semibold bg-pink-700 text-center py-2">Grid</h1>
+              <h1 class="text-xl font-semibold bg-green-700 text-center py-2">Grid</h1>
+              <h1 class="text-xl font-semibold bg-yellow-300 text-center py-2">Grid</h1>
+              <h1 class="text-xl font-semibold bg-rose-400 text-center py-2">Grid</h1>
+              <h1 class="text-xl font-semibold bg-purple-700 text-center py-2">Grid</h1>
+            </div>
+
+              <h1 class="text-4xl underline py-2 mt-10">Inline Grid</h1>
+
+            <div class="space-x-4">
+              <span class="inline-grid grid-cols-3 gap-5">
+                <h1 class="text-2xl bg-slate-200 py-2 px-2 rounded-full">1</h1>
+                <h1 class="text-2xl bg-slate-200 py-2 px-2 rounded-full">2</h1>
+                <h1 class="text-2xl bg-slate-200 py-2 px-2 rounded-full">3</h1>
+                <h1 class="text-2xl bg-slate-200 py-2 px-2 rounded-full">4</h1>
+                <h1 class="text-2xl bg-slate-200 py-2 px-2 rounded-full">5</h1>
+                <h1 class="text-2xl bg-slate-200 py-2 px-2 rounded-full">6</h1>
+              </span>
+              <span class="inline-grid grid-cols-3 gap-5">
+                <h1 class="text-2xl bg-gray-500 py-2 px-2 rounded-full">1</h1>
+                <h1 class="text-2xl bg-gray-500 py-2 px-2 rounded-full">2</h1>
+                <h1 class="text-2xl bg-gray-500 py-2 px-2 rounded-full">3</h1>
+                <h1 class="text-2xl bg-gray-500 py-2 px-2 rounded-full">4</h1>
+                <h1 class="text-2xl bg-gray-500 py-2 px-2 rounded-full">5</h1>
+                <h1 class="text-2xl bg-gray-500 py-2 px-2 rounded-full">6</h1>
+              </span>
+              <span class="inline-grid grid-cols-3 gap-5">
+                <h1 class="text-2xl bg-blue-500 py-2 px-2 rounded-full">1</h1>
+                <h1 class="text-2xl bg-blue-500 py-2 px-2 rounded-full">2</h1>
+                <h1 class="text-2xl bg-blue-500 py-2 px-2 rounded-full">3</h1>
+                <h1 class="text-2xl bg-blue-500 py-2 px-2 rounded-full">4</h1>
+                <h1 class="text-2xl bg-blue-500 py-2 px-2 rounded-full">5</h1>
+                <h1 class="text-2xl bg-blue-500 py-2 px-2 rounded-full">6</h1>
+              </span>
+            </div>
+
+            <h1 class="text-4xl underline py-2 mt-10">Table</h1>
+
+            <div class="table w-full border border-black">
+              <div class="table-header-group">
+                <div class="table-row ">
+                  <div class="table-cell text-2xl font-semibold  text-left border border-black">Song</div>
+                  <div class="table-cell text-2xl font-semibold  text-left border border-black">Artist</div>
+                  <div class="table-cell text-2xl font-semibold  text-left border border-black">Year</div>
+                </div>
+              </div>
+                <div class="table-row-group">
+                  <div class="table-row">
+                    <div class="table-cell  border border-black">Empire State of Mind</div>
+                    <div class="table-cell  border border-black">Jay-Z</div>
+                    <div class="table-cell  border border-black">2009</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="table-cell border border-black">Witchy Woman</div>
+                    <div class="table-cell border border-black">The Eagles</div>
+                    <div class="table-cell border border-black">1972</div>
+                  </div>
+                  <div class="table-row">
+                    <div class="table-cell border border-black">Shining Star</div>
+                    <div class="table-cell border border-black">Earth, Wind, and Fire</div>
+                    <div class="table-cell border border-black">1975</div>
+                  </div>
+                
+              </div>
+            </div>
+
+
+            <h1 class="text-4xl underline py-2 mt-10">Hidden</h1>
+
+            <div class="flex gap-5 text-5xl font-semibold ">
+              <h1>1</h1>
+              <h1>2</h1>
+              <h1 class="hidden">3</h1>
+              <h1>4</h1>
+              <h1>5</h1>
+            </div>
+
+
+
     <!-- https://tailwindcss.com/docs/display -->
+
+
   </body>
 </html>
