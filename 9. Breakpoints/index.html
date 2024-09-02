@@ -6,10 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Breakpoints & Media Queries</title>
+    <script>
+      tailwind.config = {
+        theme : {
+          screen : {
+            'xs':'360px',
+
+            's' :'480px',
+
+            'sm': '640px',
+
+            'md': '768px',
+                    
+            'lg': '1024px',
+
+            'xl': '1280px',
+
+            '2xl': '1536px',
+          },
+        }
+      }
+    </script>
   </head>
   <body>
     <!-- https://tailwindcss.com/docs/responsive-design -->
     <h1 class="text-3xl underline py-2 mt-10">Responsive Design</h1>
+
+    <div class="flex items-center justify-center w-screen">
+      <img src="https://images.pexels.com/photos/2668510/pexels-photo-2668510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="  lg:w-[800px] md:w-[600px]  sm:w-[400px] s:w-[250px] sm:px-2  px-5 duration-1000   " alt="">
+    </div>
 
   </body>
 </html>
